@@ -7,8 +7,8 @@ function Navbar() {
 				alt="logo"
 				height="28.93px"
 			/>
-			<h2>ReactFacts</h2>
-			<h3>React Course - Project 1</h3>
+			<h2>React Jokes</h2>
+			<h3>Jokes from Scrimba React Course </h3>
 		</nav>
 	);
 }

@@ -1,16 +1,28 @@
-function Main() {
+import Joke from './Joke';
+
+function Main(props) {
 	return (
 		<div className="main">
-			<div className="factContainer">
-				<h1 className="title">Fun facts about React</h1>
-				<ul className="facts">
-					<li>Was first released in 2013</li>
-					<li>Was originally created by Jordan Walke</li>
-					<li>Has well over 100k stars on GitHub</li>
-					<li>Is maintained by Facebook</li>
-					<li>Powers thousands of enterprise apps, including mobile apps</li>
-				</ul>
-			</div>
+			<Joke
+				setup="I got my daughter a fridge for her birthday."
+				punchline="I can't wait to see her face light up when she opens it."
+			/>
+			<Joke
+				setup="How did the hacker escape the police?"
+				punchline="He just ransomware!"
+			/>
+			<Joke
+				setup="Why don't pirates travel on mountain roads?"
+				punchline="Scurvy."
+			/>
+			<Joke
+				setup="Why do bees stay in the hive in the winter?"
+				punchline="Swarm."
+			/>
+			<Joke
+				setup="What's the best thing about Switzerland?"
+				punchline="I don't know, but the flag is a big plus!"
+			/>
 		</div>
 	);
 }
